@@ -29,11 +29,38 @@ html {
     background-color: #222222;
 }
 
+
+.navbar1{
+  display: flex;
+  background: transparent;
+  align-items: center;
+  justify-content: center;
+  padding-top: 3em;
+
+}
+.list1{
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  font-size: x-large;
+  list-style: none;
+  
+}
+a{
+  text-decoration: none;
+  color: White;
+  text-transform: uppercase;
+  font-family: 'Courier New', Courier, monospace;
+}
+a:hover{
+  color: green;
+}
+
 .page-title{
     font-size: 3em;
     color: whitesmoke;
     text-align: center;
-    padding-top: 5%;
+    padding-top: 1em;
     margin-bottom: 5%;
 }
 
