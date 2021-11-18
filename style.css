@@ -25,6 +25,7 @@ a{
     color: White;
     text-transform: uppercase;
     font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
 }
 a:hover{
     color: green;
