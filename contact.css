@@ -25,10 +25,9 @@ html {
   /* ------------------------------------ */
 .container{
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     background-color: #222222;
 }
-
 
 .navbar1{
   display: flex;
@@ -38,6 +37,7 @@ html {
   padding-top: 3em;
 
 }
+
 .list1{
   display: flex;
   flex-direction: row;
@@ -46,12 +46,14 @@ html {
   list-style: none;
   
 }
+
 a{
   text-decoration: none;
   color: White;
   text-transform: uppercase;
   font-family: 'Courier New', Courier, monospace;
 }
+
 a:hover{
   color: green;
 }
@@ -78,6 +80,7 @@ a:hover{
     font-size: 1.2em;
     border: none;
     background-color: rgb(51,51,51);
+    text-align: center;
 }
 
 #lname{
@@ -85,6 +88,7 @@ a:hover{
     font-size: 1.2em;
     border: none;
     background-color: rgb(51,51,51);
+    text-align: center;
 }
 
 #phone{
@@ -92,6 +96,7 @@ a:hover{
     font-size: 1.2em;
     border: none;
     background-color: rgb(51,51,51);
+    text-align: center;
 }
 
 #message-me{
@@ -99,6 +104,8 @@ a:hover{
     height: 80%;
     font-size: 1.2em;
     background-color: rgb(51,51,51);
+    margin-bottom: 35px;
+    text-align: center;
 }
 
 .send-butt{
@@ -186,6 +193,8 @@ a:hover{
     "copy-rights soc-icons";
     justify-items: center;
     align-items: center;
+    /* position: fixed;
+    bottom: 0; */
   }
 
   .footer-p{
@@ -203,7 +212,7 @@ a:hover{
   }
   
   .soc-img{
-    fill: black;
+    fill: whitesmoke;
   }
   
   .soc-img:hover{
@@ -223,3 +232,56 @@ a:hover{
     height: 44px;
     width: 44px;
   }
+
+ @media only screen and (max-width: 850px){
+   .lower-container{
+     width: 95%;
+     margin: 0;
+   }
+
+   .send-message{
+     width: 50%;
+   }
+   .send-butt{
+     width: 75%;
+   }
+ }
+
+ @media only screen and (max-width: 500px){
+   .footer{
+     display: flex;
+     flex-direction: column;
+     row-gap: 10px;
+   }
+
+   .footer-p{
+     padding-top: 4px;
+   }
+ }
+
+ @media only screen and (max-width: 450px){
+   .lower-container{
+     flex-direction: column;
+     align-items: center;
+   }
+
+   .send-message{
+     width: 95%;
+   }
+
+   #fname, #lname, #phone{
+     height: 2em;
+   }
+
+   .send-butt{
+     height: 3em;
+   }
+
+   .my-info{
+     width: 90%;
+   }
+
+   .contact-info{
+     font-size: 1.25em;
+   }
+ }

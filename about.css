@@ -1,6 +1,7 @@
 html {
     box-sizing: border-box;
     font-size: 16px;
+    background-color: #222222;
   }
   
   *, *:before, *:after {
@@ -21,11 +22,13 @@ html {
     max-width: 100%;
     height: auto;
   }
+
+
 /* ------------------------------------------------------------------------------------------------------------------------------------------------ */
 
 
 .container{
-    height: 100vh;
+    height: 100%;
     width: 100vw;
     background-color: #222222;
 }
@@ -38,20 +41,22 @@ html {
   padding-top: 3em;
 
 }
+
 .list1{
   display: flex;
   flex-direction: row;
   gap: 40px;
   font-size: x-large;
   list-style: none;
-  
 }
+
 a{
   text-decoration: none;
   color: White;
   text-transform: uppercase;
   font-family: 'Courier New', Courier, monospace;
 }
+
 a:hover{
   color: green;
 }
@@ -72,10 +77,8 @@ a:hover{
 }
 
 .hero-img{
-  width: 100%;
-
+  max-width: 100%;
   height: auto;
-  margin: 0 auto;
 }
 
 .about-me-container{
@@ -96,7 +99,16 @@ a:hover{
     max-width: 90%;
     max-height: 270px;
     text-align: center;
-    margin-top: 2em;
+    margin: 0 auto;
+    margin-top: 1em;
+}
+
+.buttons{
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  margin-top: 1em;
 }
 
 .contact-butt {
@@ -232,7 +244,7 @@ a:hover{
     color: white;
     width: 100%;
     height: 5em;
-    margin-top: 10px;
+    margin-top: 35px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
@@ -276,4 +288,22 @@ a:hover{
     fill: #D84738;
     height: 44px;
     width: 44px;
+  }
+
+  @media only screen and (max-width: 1023px) {
+    
+  }
+
+
+
+  @media only screen and (max-width: 500px){
+    .footer{
+      display: flex;
+      flex-direction: column;
+      row-gap: 10px;
+    }
+ 
+    .footer-p{
+      padding-top: 4px;
+    }
   }
