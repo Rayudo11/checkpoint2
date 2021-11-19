@@ -35,7 +35,8 @@ html {
   align-items: center;
   justify-content: center;
   padding-top: 3em;
-
+  z-index: 9;
+  background-color: #222222;
 }
 
 .list1{

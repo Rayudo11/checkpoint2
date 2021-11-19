@@ -33,13 +33,22 @@ html {
     background-color: #222222;
 }
 
+
 .navbar1{
   display: flex;
   background: transparent;
   align-items: center;
   justify-content: center;
   padding-top: 3em;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9;
+  background-color: #222222;
+}
 
+.navbar1 + .list1 {
+  padding-top: 40px;
 }
 
 .list1{
@@ -61,16 +70,21 @@ a:hover{
   color: green;
 }
 
+.page-title{
+  font-size: 2em;
+  color: whitesmoke;
+  text-align: center;
+  margin-top: 7%;
+}
+
 .content{
     display: flex;
     justify-content: space-around;
-    margin-top: 4em;
+    margin-top: 3em;
     gap: 10px;
 }
 
 .img-container{
-    display: flex;
-    justify-content: center;
     width: 50%;
     height: auto;
     margin: 5px;
@@ -79,6 +93,7 @@ a:hover{
 .hero-img{
   max-width: 100%;
   height: auto;
+  background-size: cover;
 }
 
 .about-me-container{
@@ -87,17 +102,11 @@ a:hover{
 
 }
 
-.page-title{
-    font-size: 2em;
-    color: whitesmoke;
-    text-align: center;
-}
-
 .my-info{
     color: whitesmoke;
     font-size: 1.2em;
     max-width: 90%;
-    max-height: 270px;
+    max-height: auto;
     text-align: center;
     margin: 0 auto;
     margin-top: 1em;
@@ -108,12 +117,18 @@ a:hover{
   display: flex;
   justify-content: center;
   gap: 1em;
+  margin: 0 auto;
   margin-top: 1em;
 }
 
+.button-container{
+  width: 25%;
+  height: auto;
+}
+
 .contact-butt {
-    width: 220px;
-    height: 50px;
+    width: 100%;
+    height: 100%;
     border: none;
     outline: none;
     color: #fff;
@@ -122,6 +137,7 @@ a:hover{
     position: relative;
     z-index: 0;
     border-radius: 10px;
+    padding: 10px;
     font-size: 1.25em;
 }
 
@@ -176,8 +192,8 @@ a:hover{
 }
 
 .work-butt {
-  width: 220px;
-  height: 50px;
+  width: 100%;
+  height: 100%;
   border: none;
   outline: none;
   color: #fff;
@@ -186,6 +202,7 @@ a:hover{
   position: relative;
   z-index: 0;
   border-radius: 10px;
+  padding: 10px;
   font-size: 1.25em;
 }
 
