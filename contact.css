@@ -82,6 +82,7 @@ a:hover{
     border: none;
     background-color: rgb(51,51,51);
     text-align: center;
+    color: slategray;
 }
 
 #lname{
@@ -90,6 +91,7 @@ a:hover{
     border: none;
     background-color: rgb(51,51,51);
     text-align: center;
+    color: slategray;
 }
 
 #phone{
@@ -98,6 +100,7 @@ a:hover{
     border: none;
     background-color: rgb(51,51,51);
     text-align: center;
+    color: slategray;
 }
 
 #message-me{
@@ -107,6 +110,8 @@ a:hover{
     background-color: rgb(51,51,51);
     margin-bottom: 35px;
     text-align: center;
+    border: none;
+    color: slategray;
 }
 
 .send-butt{

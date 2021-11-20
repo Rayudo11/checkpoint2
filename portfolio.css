@@ -245,7 +245,7 @@ a:hover{
   }
   
   .soc-img{
-    fill: whitesmoke;
+    fill: black;
   }
  
                                                                         /* ask how to make the whole area hover active */
@@ -265,4 +265,13 @@ a:hover{
     fill: #D84738;
     height: 44px;
     width: 44px;
+  }
+
+  @media only screen and (max-width: 500px) {
+    .footer{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      width: 100%; 
+    }    
   }
