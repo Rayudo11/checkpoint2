@@ -73,8 +73,8 @@ h3{
 }
 .footerp{
     position: relative;
-    top: 20%;
-    
+    top: 40%;
+    color: white;
 }
 footer{
     text-align: center;
@@ -87,10 +87,8 @@ footer{
 }
 .navbar2{
     position: absolute;
-    bottom: 25%;
-    right: 15%;
-    align-items: center;
-    width: 140px;
+    right: 50px;
     
+   
     
 }
