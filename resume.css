@@ -87,8 +87,404 @@ footer{
 }
 .navbar2{
     position: absolute;
-    right: 50px;
+    right: 50px; 
+}
+@media (max-width: 1262px){
+    body{
+        background-color: #222;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center center;
+        width: 100%;
+    }
+    .navbar{
+        display: flex;
+        background: transparent;
+        align-items: center;
+        justify-content: center;
     
-   
+    }
+    .list1{
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+        font-size: x-large;
+        list-style: none;
+        
+    }
+    a{
+        text-decoration: none;
+        color: black;
+        text-transform: uppercase;
+        font-family: 'Courier New', Courier, monospace;
+        cursor: pointer;
+    }
+    a:hover{
+        color: green;
+    }
+    .sec1{
+        justify-content: center;
+        align-items: center;
+    }
+    h1{
+        font-size: xx-large;
+        color: white;
+        margin-left: 43%;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .sec2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    article{
+        background-color: rgba(70, 99, 101);
+         border: 1px solid black;
+         height: 200px;
+         border-radius: 10px;
+         margin: 0 0 25px 0;
+         padding-left: 10px;
+         padding-right: 10px;
+    }
+    p{
+        padding-bottom: 10px;
+    }
+    h2{
+        color: white;
+       
+    }
+    h5{
+        color: white;
+
+    }
+    h3{
+        font-family:sans-serif;
+        color: rgba(180, 154, 103);
+    }
+    .left{
+       margin: 0 15px 0 200px;
+       
+    }
+    .right{
+        margin: 0 200px 0 15px;
+    }
+    .footerp{
+        position: relative;
+        top: 40%;
+        color: white;
+    }
+    footer{
+        text-align: center;
+        bottom:0;
+        left: 0;
+        width: 100%;
+        height: 100px;
     
+    
+    }
+    .navbar2{
+        position: absolute;
+        right: 50px; 
+    }
+}
+@media (max-width: 1137px){
+    body{
+        background-color: #222;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center center;
+        width: 100%;
+    }
+    .navbar{
+        display: flex;
+        background: transparent;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    .list1{
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+        font-size: x-large;
+        list-style: none;
+        
+    }
+    a{
+        text-decoration: none;
+        color: black;
+        text-transform: uppercase;
+        font-family: 'Courier New', Courier, monospace;
+        cursor: pointer;
+    }
+    a:hover{
+        color: green;
+    }
+    .sec1{
+        justify-content: center;
+        align-items: center;
+    }
+    h1{
+        font-size: xx-large;
+        color: white;
+        margin-left: 43%;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .sec2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    article{
+        background-color: rgba(70, 99, 101);
+         border: 1px solid black;
+         height: 250px;
+         border-radius: 10px;
+         margin: 0 0 25px 0;
+         padding-left: 10px;
+         padding-right: 10px;
+    }
+    p{
+        padding-bottom: 15px;
+    }
+    h2{
+        color: white;
+        margin: 0 0 30px 100px;
+       
+    }
+    h5{
+        color: white;
+
+    }
+    h3{
+        font-family:sans-serif;
+        color: rgba(180, 154, 103);
+    }
+    .left{
+       margin: 0 15px 0 200px;
+       
+    }
+    .right{
+        margin: 0 200px 0 15px;
+    }
+    .footerp{
+        position: relative;
+        top: 40%;
+        color: white;
+    }
+    footer{
+        text-align: center;
+        bottom:0;
+        left: 0;
+        width: 100%;
+        height: 100px;
+    }
+    .navbar2{
+        position: absolute;
+        right: 50px; 
+    }
+}
+@media (max-width: 973px){
+    body{
+        background-color: #222;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center center;
+        width: 100%;
+    }
+    .navbar{
+        display: flex;
+        background: transparent;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    .list1{
+        font-size: 5px;
+        display: flex;
+        margin-left: 20px;
+        flex-direction: row;
+        gap: 10px;
+        font-size: x-large;
+        list-style: none;
+        
+    }
+    a{
+        text-decoration: none;
+        color: black;
+        text-transform: uppercase;
+        font-family: 'Courier New', Courier, monospace;
+        cursor: pointer;
+    }
+    a:hover{
+        color: green;
+    }
+    .sec1{
+        justify-content: center;
+        align-items: center;
+    }
+    h1{
+        font-size: xx-large;
+        color: white;
+        margin-left: 43%;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .sec2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    article{
+        background-color: rgba(70, 99, 101);
+         border: 1px solid black;
+         height: 300px;
+         border-radius: 10px;
+         margin: 0 0px 25px 0px;
+         padding-left: 10px;
+         padding-right: 10px;
+    }
+    p{
+        padding-bottom: 10px;
+    }
+    h2{
+        color: white;
+       
+    }
+    h5{
+        color: white;
+
+    }
+    h3{
+        font-family:sans-serif;
+        color: rgba(180, 154, 103);
+    }
+    .left{
+       margin: 0 15px 0 200px;
+       
+    }
+    .right{
+        margin: 0 200px 0 15px;
+    }
+    .footerp{
+        position: relative;
+        top: 40%;
+        color: white;
+    }
+    footer{
+        text-align: center;
+        bottom:0;
+        left: 0;
+        width: 100%;
+        height: 100px;
+    
+    
+    }
+    .navbar2{
+        position: absolute;
+        right: 50px; 
+    }
+}
+@media (max-width: 650px){
+    body{
+        background-color: #222;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center center;
+        width: 100%;
+    }
+    .navbar{
+        display: flex;
+        background: transparent;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    .list1{
+        font-size: 2px;
+        display: flex;
+        margin-left: 20px;
+        flex-direction: row;
+        gap: 10px;
+        font-size: large;
+        list-style: none;
+        
+    }
+    a{
+        text-decoration: none;
+        color: black;
+        text-transform: uppercase;
+        font-family: 'Courier New', Courier, monospace;
+        cursor: pointer;
+    }
+    a:hover{
+        color: green;
+    }
+    .sec1{
+        justify-content: center;
+        align-items: center;
+    }
+    h1{
+        font-size: xx-large;
+        color: white;
+        margin-left: 43%;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .sec2{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        margin-left: 80px;
+    }
+    article{
+        background-color: rgba(70, 99, 101);
+         border: 1px solid black;
+         height: 280px;
+         border-radius: 10px;
+         padding-left: 10px;
+         padding-right: 10px;
+    }
+    p{
+        padding-bottom: 10px;
+    }
+    h2{
+        color: white;
+        
+       
+    }
+    h5{
+        color: white;
+
+    }
+    h3{
+        font-family:sans-serif;
+        color: rgba(180, 154, 103);
+    }
+    .left{
+       margin: 0 30px 0 30px;
+       
+    }
+    .right{
+        margin: 0 30px 0 30px;
+    }
+    .footerp{
+        color: white;
+        text-align: left;
+        position: relative;
+        left: 10%;
+    }
+    footer{
+        text-align: center;
+        bottom:0;
+        left: 0;
+        width: 100%;
+        height: 100px;
+    
+    
+    }
+    .navbar2{
+        position: relative;
+        left: 40%; 
+    }
+
 }
